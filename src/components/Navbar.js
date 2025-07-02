@@ -110,7 +110,12 @@ const Navbar = () => {
           <CustomLink className="mr-4" href="/" title="Home" />
           <CustomLink className="mx-4" href="/about" title="About" />
           <CustomLink className="mx-4" href="/projects" title="Projects" />
-          <CustomLink className="ml-4" href="/articles" title="Articles" />
+          <CustomLink className="mx-4" href="/services" title="Services" />
+          <CustomLink className="mx-4" href="/research" title="Research" />
+          <CustomLink className="mx-4" href="/awards" title="Awards" />
+          <CustomLink className="mx-4" href="/workshops" title="Workshops" />
+          <CustomLink className="mx-4" href="/notifications" title="Notifications" />
+          <CustomLink className="ml-4" href="/contact" title="Contact" />
         </nav>
         <nav
           className="flex items-center justify-center flex-wrap lg:mt-2
@@ -119,45 +124,53 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mr-3"
-            href="https://github.com/lilxyzz"
+            href="https://github.com/mdashiqueh"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my GitHub profile"
           >
             <GithubIcon />
           </motion.a>
-
-          <motion.a
-            target={"_blank"}
-            className="w-7 mx-3 bg-light rounded-full"
-            href="https://medium.com/@travis.lord"
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            aria-label="Checkout my Medium profile"
-          >
-            <MediumIcon />
-          </motion.a>
-
           <motion.a
             target={"_blank"}
             className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            href="https://www.linkedin.com/in/mdashiquehussain"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            aria-label="Checkout my Dev.to profile"
+            aria-label="Checkout my LinkedIn profile"
           >
-            <DevIcon />
+            <LinkedInIcon />
           </motion.a>
-
           <motion.a
             target={"_blank"}
             className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            href="https://www.instagram.com/iam_ashique/"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            aria-label="My Dev.to profile"
-          ></motion.a>
-
+            aria-label="Checkout my Instagram profile"
+          >
+            <img src="/images/profile/instagram.png" alt="Instagram" className="w-7 h-7 rounded-full" />
+          </motion.a>
+          <motion.a
+            target={"_blank"}
+            className="w-7 mx-3"
+            href="https://www.facebook.com/mdashiqueh"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            aria-label="Checkout my Facebook profile"
+          >
+            <img src="/images/profile/facebook.png" alt="Facebook" className="w-7 h-7 rounded-full" />
+          </motion.a>
+          <motion.a
+            target={"_blank"}
+            className="w-7 mx-3"
+            href="https://x.com/iam_ashiqueh"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            aria-label="Checkout my X profile"
+          >
+            <img src="/images/profile/twitter.png" alt="X (Twitter)" className="w-7 h-7 rounded-full" />
+          </motion.a>
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
             className={`w-7 h-7 ease ml-3 flex items-center justify-center rounded-full p-1  
@@ -203,9 +216,33 @@ const Navbar = () => {
             />
             <CustomMobileLink
               toggle={handleClick}
-              className="ml-4 lg:m-0 lg:my-2"
-              href="/articles"
-              title="Articles"
+              className="mx-4 lg:m-0 lg:my-2"
+              href="/services"
+              title="Services"
+            />
+            <CustomMobileLink
+              toggle={handleClick}
+              className="mx-4 lg:m-0 lg:my-2"
+              href="/research"
+              title="Research"
+            />
+            <CustomMobileLink
+              toggle={handleClick}
+              className="mx-4 lg:m-0 lg:my-2"
+              href="/awards"
+              title="Awards"
+            />
+            <CustomMobileLink
+              toggle={handleClick}
+              className="mx-4 lg:m-0 lg:my-2"
+              href="/workshops"
+              title="Workshops"
+            />
+            <CustomMobileLink
+              toggle={handleClick}
+              className="mx-4 lg:m-0 lg:my-2"
+              href="/notifications"
+              title="Notifications"
             />
             <CustomMobileLink
               toggle={handleClick}
@@ -221,43 +258,53 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mr-3"
-              href="https://github.com/lilxyzz"
+              href="https://github.com/mdashiqueh"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Github profile"
             >
               <GithubIcon />
             </motion.a>
-
             <motion.a
               target={"_blank"}
-              className="w-6 mx-3 bg-light rounded-full"
-              href="https://medium.com/@travis.lord"
+              className="w-6 mx-3"
+              href="https://www.linkedin.com/in/mdashiquehussain"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              aria-label="Checkout my Medium profile"
+              aria-label="Checkout my LinkedIn profile"
             >
-              <MediumIcon />
+              <LinkedInIcon />
             </motion.a>
             <motion.a
               target={"_blank"}
               className="w-6 mx-3"
-              href="https://dev.to/lilxyzz"
+              href="https://www.instagram.com/iam_ashique/"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              aria-label="Checkout my Dev.to profile"
+              aria-label="Checkout my Instagram profile"
             >
-              <DevIcon />
+              <img src="/images/profile/instagram.png" alt="Instagram" className="w-6 h-6 rounded-full" />
             </motion.a>
             <motion.a
               target={"_blank"}
               className="w-6 mx-3"
-              href="https://dev.to/lilxyzz"
+              href="https://www.facebook.com/mdashiqueh"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              aria-label="My Dev.to profile"
-            ></motion.a>
-
+              aria-label="Checkout my Facebook profile"
+            >
+              <img src="/images/profile/facebook.png" alt="Facebook" className="w-6 h-6 rounded-full" />
+            </motion.a>
+            <motion.a
+              target={"_blank"}
+              className="w-6 mx-3"
+              href="https://x.com/iam_ashiqueh"
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.9 }}
+              aria-label="Checkout my X profile"
+            >
+              <img src="/images/profile/twitter.png" alt="X (Twitter)" className="w-6 h-6 rounded-full" />
+            </motion.a>
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
               className={`w-6 h-6 ease m-1 ml-3 sm:mx-1 flex items-center justify-center rounded-full p-1  

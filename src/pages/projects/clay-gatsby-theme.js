@@ -44,7 +44,7 @@ export default function About() {
           href="https://travislord.xyz/projects/clay-gatsby-theme"
         ></link>
         <title>
-          Clay Theme | Unlocking The Power Of Gatsby V5+ | By Travis Lord
+          Clay Theme | Unlocking The Power Of Gatsby V5+ | Md Ashique Hussain
         </title>
         <meta
           name="description"

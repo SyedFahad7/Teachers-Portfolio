@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/Riley.png";
+import profile from "../../public/images/profile/ashique.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
@@ -64,27 +64,10 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                I'm Riley, a dedicated web developer at Stellar Innovations,
-                where I specialize in creating dynamic and user-centric web
-                experiences. With over a decade of experience in the industry, I
-                have honed my skills in both front-end and back-end
-                technologies, allowing me to deliver responsive and
-                high-performance websites and applications.
+                I'm Md Ashique Hussain, a passionate Frontend developer. With a strong background in web development, I strive to create visually appealing and user-friendly websites. I have a deep understanding of HTML, CSS, and JavaScript, which allows me to bring designs to life and deliver seamless user experiences. I am constantly exploring new technologies and trends in the frontend world to stay up-to-date and deliver modern solutions. I pay great attention to detail and take pride in writing clean and efficient code. Collaborating with designers and backend developers, I ensure that the frontend seamlessly integrates with the overall project. I am committed to delivering high-quality work and enjoy solving complex problems. With excellent problem-solving skills and a strong eye for design, I aim to create intuitive interfaces that engage users and leave a lasting impression.
               </p>
               <p className="my-4 font-medium">
-                At Stellar Innovations, I've had the opportunity to work on
-                numerous high-profile projects that have challenged and expanded
-                my expertise. My technical skill set includes HTML, CSS,
-                JavaScript, React, and Node.js, among other technologies. One of
-                my notable projects involved developing a comprehensive
-                e-commerce platform that streamlined the user experience and
-                significantly boosted the client's sales. Another project I’m
-                particularly proud of was creating an interactive web
-                application for a major event, which received widespread acclaim
-                for its intuitive design and seamless performance.
-              </p>
-              <p className="my-4 font-medium">
-                P.s I'm a big fan of anime and not a real person ✌️.
+                I'm also a passionate Graphic Designer specializing in creating visually stunning and impactful designs. With a strong background in design principles, color theory, typography, and layout composition, I bring your ideas to life. Using industry-standard design software like Adobe Photoshop, Illustrator, and InDesign, I deliver compelling visuals that effectively communicate your desired message. I stay up-to-date with the latest design trends and techniques to provide modern and innovative solutions. Collaborating closely with clients and team members, I ensure designs align with project goals and brand identity. With an eye for detail and a passion for aesthetics, I create captivating designs that leave a lasting impression. If you're seeking a dedicated Graphic Designer to elevate your brand's visual appeal, I'd be thrilled to collaborate. Let's discuss your design needs and explore potential collaborations.
               </p>
             </div>
             <div
@@ -102,7 +85,7 @@ export default function About() {
                 className="h-auto w-full rounded-2xl border-2 border-solid border-dark"
                 priority={true}
                 src={profile}
-                alt="Travis Lord"
+                alt="Md Ashique Hussain"
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
@@ -114,7 +97,7 @@ export default function About() {
             >
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={1461} />+
+                  <AnimatedNumberFramerMotion value={500} />+
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -126,7 +109,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={500} />
+                  <AnimatedNumberFramerMotion value={100} />
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -138,7 +121,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={499} />
+                  <AnimatedNumberFramerMotion value={0} />
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 

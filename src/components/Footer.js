@@ -20,7 +20,7 @@ const Footer = () => {
             href="https://travislord.xyz/"
             className="underline underline-offset-2"
           >
-            Travis Lord
+            Md Ashique Hussain
           </Link>
         </div>
       </Layout>

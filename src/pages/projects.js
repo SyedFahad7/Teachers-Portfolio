@@ -8,7 +8,9 @@ import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
 import proj1 from "../../public/images/projects/clay-theme.png";
-import loading from "../../public/images/articles/GTA6-VICE.gif";
+import proj2 from "../../public/images/projects/clay-theme.png";
+import proj3 from "../../public/images/projects/clay-theme.png";
+import loading from "../../public/images/projects/thanks.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";
@@ -250,36 +252,31 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
+                type="Personal Portfolio Website"
+                title="Personal Portfolio"
+                summary="Developed a personal portfolio website to showcase my skills, projects, and experiences. The portfolio page includes sections such as About Me, Skills, Projects, Experience, and Contact. It features a responsive design that adapts to different screen sizes and devices, providing an optimal user experience. The page is visually appealing with a clean and modern layout, showcasing my work and achievements in an organized manner."
                 img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                link="#"
+                github="#"
+                tools="HTML, CSS, JavaScript"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                title="Library Management System"
+                type="Web Application"
+                img={proj2}
+                link="#"
+                tools="HTML, CSS, JavaScript, PHP, MySQL"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                title="Hospital Management System"
+                type="Web Application"
+                img={proj3}
+                link="#"
+                tools="HTML, CSS, JavaScript, PHP, MySQL"
               />
             </div>
           </div>
@@ -291,22 +288,11 @@ export default function Projects() {
                 img={loading}
                 time="1 min read"
                 date=""
-                link="https://github.com/lilxyzz/"
+                link="https://github.com/ashiquehussain123/"
               />
             </ul>
 
             <div className="mt-2 flex items-center justify-between gap-3 grid-cols-2">
-              <Link
-                href="/articles/"
-                target={"_self"}
-                className={`flex items-center rounded-lg border-2 border-solid bg-light p-2.5 px-6 text-lg font-semibold
-            capitalize text-dark hover:border-light hover:bg-dark hover:text-light 
-            dark:bg-dark dark:text-light dark:hover:bg-light dark:hover:text-dark
-            md:p-2 md:px-4 md:text-base
-             `}
-              >
-                View Articles
-              </Link>
               <Link
                 href="/about/"
                 target={"_self"}

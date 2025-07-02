@@ -58,21 +58,20 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Developer"
-            company="Stellar Innovations"
-            time="2020 - 2024"
-            address="200 Innovations st"
-            companyLink="https://github.com/lilxyzz/clay-theme"
-            work="At Stellar Innovations, I serve as a web developer, where I play a crucial role in designing and implementing cutting-edge web solutions. My responsibilities include developing responsive and high-performance websites and applications using technologies such as HTML, CSS, JavaScript, React, and Node.js. I collaborate closely with cross-functional teams to ensure our projects meet the highest standards of functionality and user experience. One of my key achievements at Stellar Innovations has been leading the development of a comprehensive e-commerce platform that significantly enhanced our client's online presence and sales. My work is driven by a passion for continuous learning and innovation, always striving to push the boundaries of what's possible in web development."
+            position="Assistant Professor"
+            company="Lords Institute of Engineering & Technology"
+            time="Nov 2023 - Present"
+            address="Hyderabad, India"
+            companyLink="#"
+            work="As Assistant Professor at Lords Institute of Engineering & Technology, I'm responsible for teaching, mentoring students, conducting research, and contributing to the academic and administrative functions of the institution."
           />
-
           <Details
-            position="Rad Tester"
-            company="Vault Technologies"
-            time="2018 - 2020"
-            address="404 Tech st"
-            companyLink="https://github.com/lilxyzz/holo-theme"
-            work="At Vault Technologies, I worked as a RAD (Rapid Application Development) Tester, where I was responsible for ensuring the quality and functionality of our software applications during the development process. My role involved designing and executing test plans, identifying and documenting bugs, and working closely with developers to resolve issues quickly. This position required a deep understanding of the software development lifecycle and a keen eye for detail to ensure our applications met the highest standards of performance and reliability. My contributions at Vault Technologies helped streamline our development processes and significantly improved the overall quality of our software products."
+            position="Front-End Developer Intern"
+            company="NullClass"
+            time="Oct 2022 - Feb 2023"
+            address="Remote"
+            companyLink="#"
+            work="Assisted in the development of front-end components using HTML, CSS, and JavaScript. Collaborated with the development team to implement website designs. Conducted testing and troubleshooting of front-end code. Contributed to the optimization of website performance and responsiveness."
           />
         </ul>
       </div>
@@ -87,17 +86,6 @@ const Experience = () => {
              `}
         >
           View Projects
-        </Link>
-        <Link
-          href="/articles/"
-          target={"_self"}
-          className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
-            capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
-            dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
-            md:p-2 md:px-4 md:text-base
-             `}
-        >
-          View Articles
         </Link>
       </div>
     </div>
